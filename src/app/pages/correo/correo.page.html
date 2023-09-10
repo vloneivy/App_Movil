@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>correo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-card>
+  <ion-card-subtitle>Ingresa tu Correo</ion-card-subtitle>
+  <ion-input type="text" [(ngModel)]="correo" aria-placeholder="ingresa tu correo"></ion-input>
+  <a (click)="ingresarPaginaValidarCRespuestaSecreta()">Recuperar Contraseña</a>
+</ion-card>
+</ion-content>
